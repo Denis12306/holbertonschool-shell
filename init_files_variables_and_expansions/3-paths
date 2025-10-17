@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d PATH=$PATCH:/action | wc -l
+find -type d $PATCH | wc -l
